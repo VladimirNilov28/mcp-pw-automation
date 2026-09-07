@@ -1,0 +1,8 @@
+{
+  "headless": false,
+  "environments": {
+    "prod": { "url": "https://playwright.dev/" },
+    "stage": { "url": "https://playwright.dev/" },
+    "qa": { "url": "https://playwright.dev/" }
+  }
+}

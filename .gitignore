@@ -1,0 +1,25 @@
+# Secrets - never commit real credentials
+creds.json
+*.env
+.env.*
+
+# Runtime output / test results
+results/*
+!results/.gitkeep
+.playwright-mcp/
+*.har
+screenshots/
+test-results/
+playwright-report/
+
+# Archives (should not be committed to source control)
+*.zip
+*.tar.gz
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# IDE
+.idea/

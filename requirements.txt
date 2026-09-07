@@ -1,0 +1,16 @@
+playwright
+
+# runner.py and cases.py themselves only use the standard library
+# (argparse, json, subprocess, pathlib). `playwright` is needed by
+# direct_executor.py, which controls its own Chromium instance directly
+# (not via the Playwright MCP server) for the fast, memory-backed path.
+#
+# After `pip install -r requirements.txt`, also run once:
+#   playwright install chromium
+# (downloads the actual browser binary; the pip package alone doesn't
+# include it).
+#
+# The --force-agent (full-agent) path and per-step/login fallback in the
+# default direct-executor path are both still driven by the Playwright MCP
+# server, launched via `npx @playwright/mcp@latest` (see .mcp.json) — that
+# requires Node.js, not a Python package.

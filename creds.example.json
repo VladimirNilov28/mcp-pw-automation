@@ -1,0 +1,17 @@
+{
+  "prod": {
+    "en": { "email": "REPLACE_ME", "password": "REPLACE_ME" },
+    "fr": { "email": "REPLACE_ME", "password": "REPLACE_ME" },
+    "jp": { "email": "REPLACE_ME", "password": "REPLACE_ME" }
+  },
+  "stage": {
+    "en": { "email": "REPLACE_ME", "password": "REPLACE_ME" },
+    "fr": { "email": "REPLACE_ME", "password": "REPLACE_ME" },
+    "jp": { "email": "REPLACE_ME", "password": "REPLACE_ME" }
+  },
+  "qa": {
+    "en": { "email": "REPLACE_ME", "password": "REPLACE_ME" },
+    "fr": { "email": "REPLACE_ME", "password": "REPLACE_ME" },
+    "jp": { "email": "REPLACE_ME", "password": "REPLACE_ME" }
+  }
+}

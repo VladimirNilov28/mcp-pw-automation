@@ -1,0 +1,9 @@
+{
+  "case_name": "playwright-example",
+  "steps": [
+    "Go to https://playwright.dev/",
+    "Verify the page title contains 'Playwright'",
+    "Click the 'Get started' link",
+    "Verify a heading 'Installation' is visible on the page"
+  ]
+}
